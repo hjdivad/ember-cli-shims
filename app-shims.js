@@ -4,7 +4,8 @@ define('ember', [], function() {
   "use strict";
 
   return {
-    'default': Ember
+    'default': Ember,
+    'Application': Ember.Application,
   };
 });
 })();
